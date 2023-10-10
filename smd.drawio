@@ -1,0 +1,132 @@
+<mxfile host="65bd71144e">
+    <diagram id="K4MidbQB4vWUFF9jY5_W" name="Page-1">
+        <mxGraphModel dx="2024" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;html=1;shape=flexArrow;startArrow=none;" edge="1" parent="1" source="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="680" y="860" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="760" y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="timer starts: 60 seconds" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="32">
+                    <mxGeometry x="-0.9659" y="1" relative="1" as="geometry">
+                        <mxPoint x="5" y="31" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="60 seconds end" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="32">
+                    <mxGeometry x="0.8814" y="-2" relative="1" as="geometry">
+                        <mxPoint x="28" y="-18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="START" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="250" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Show game screen&#10;Show home button, mute button, pause button&#10;Initialize points&#10;Initialize score&#10;Start timer&#10;Good elements appear&#10;Bad elements appear&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=0;" vertex="1" parent="2">
+                    <mxGeometry y="30" width="260" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="CLICK ON GOOD ELEMENTS" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="480" width="260" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Good sound plays&#10;Animation stops&#10;Element fades out&#10;One point is added&#10;Show updated score on scoreboard&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=0;" vertex="1" parent="5">
+                    <mxGeometry y="30" width="260" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="CLICK ON BAD ELEMENT" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="480" width="260" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Bad sound plays&#10;Animation stops&#10;Element fades out&#10;One life is deducted&#10;Show updated lives on health bar&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=0;" vertex="1" parent="7">
+                    <mxGeometry y="30" width="260" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="RESTART GOOD ELEMENT" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="650" width="260" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Remove all animations&#10;Assign a new position&#10;Start fadein&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=0;" vertex="1" parent="9">
+                    <mxGeometry y="30" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="RESTART BAD ELEMENT" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="650" width="260" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Remove all animations&#10;Assign a new position&#10;Start fadein&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=0;" vertex="1" parent="12">
+                    <mxGeometry y="30" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="GAME WON" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="800" width="260" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Stop all animations&#10;Stop timer and scoreboard&#10;Show winning screen&#10;Play winning sound&#10;Show scores&#10;Show home button, play again button&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=0;" vertex="1" parent="14">
+                    <mxGeometry y="30" width="260" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="GAME LOST" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="800" width="260" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Stop all animations&#10;Stop timer and scoreboard&#10;Show game over screen&#10;Play game over sound&#10;Show scores&#10;Show home button, play again button&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=0;" vertex="1" parent="16">
+                    <mxGeometry y="30" width="260" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="user clicks good element" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="18">
+                    <mxGeometry x="-0.1736" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="user clicks bad element" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="animation ends" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="animation ends" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="19 points reached" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="all 3 lives lost" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="shape=collate;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="300" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;shape=flexArrow;endArrow=none;" edge="1" parent="1" source="2" target="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="680" y="860" as="targetPoint"/>
+                        <mxPoint x="460" y="320" as="sourcePoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" style="html=1;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.535;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="15" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="190" y="280" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="119" y="960"/>
+                            <mxPoint x="-100" y="960"/>
+                            <mxPoint x="-100" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="user clicks play again button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="39">
+                    <mxGeometry x="-0.8839" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-100" y="960" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="544" y="1000"/>
+                            <mxPoint x="-100" y="1000"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="user clicks play again button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="40">
+                    <mxGeometry x="0.2311" relative="1" as="geometry">
+                        <mxPoint x="369" y="-40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

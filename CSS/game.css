@@ -1,0 +1,1918 @@
+@import url(//db.onlinewebfonts.com/c/9ab8abd11c40ee5c8d1905f9c9cb9ac8?family=Futura);
+@font-face {font-family: "Futura"; src: url("//db.onlinewebfonts.com/t/9ab8abd11c40ee5c8d1905f9c9cb9ac8.eot"); src: url("//db.onlinewebfonts.com/t/9ab8abd11c40ee5c8d1905f9c9cb9ac8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9ab8abd11c40ee5c8d1905f9c9cb9ac8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9ab8abd11c40ee5c8d1905f9c9cb9ac8.woff") format("woff"), url("//db.onlinewebfonts.com/t/9ab8abd11c40ee5c8d1905f9c9cb9ac8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9ab8abd11c40ee5c8d1905f9c9cb9ac8.svg#Futura") format("svg"); }
+
+body {
+    background-color:#f4d5a9;
+}
+
+#asset_list {
+    position: absolute;
+    width: 100%;
+    aspect-ratio: 1/1;
+    left: 5%;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    position: relative;
+    width: 100%;
+    left: 4%;
+    font-family: "Futura";
+    font-size: 25px;
+    line-height: 2em;
+    margin-top: 20px;}
+
+
+header {
+    padding-top: 30px;
+}
+header ul {
+    position: relative;
+    width: 50%;
+    left: 4%;
+    display: inline;
+    list-style: none;
+    font-family: "Futura";
+    font-size: 25px;
+}
+
+header li {
+    position: relative;
+    width: 100%;
+    line-height: 2em;
+}
+
+p {
+    font-family: 'Futura';
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+a {
+    color: #ca3616;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer li {
+    font-family: 'Futura';
+    font-size: 15px;
+    line-height: 2em;
+    text-align: justify;
+    list-style: none;
+    display: inline;
+}
+
+footer ul {
+    position: absolute;
+    top: 90%;
+    justify-self: center;
+    padding: 20px 0px 0px 50px;
+    margin: 0px;
+}
+
+
+
+#screen {
+    position: absolute;
+    width: 65%;
+    aspect-ratio: 16/9;
+    top: 10%;
+    left: 15%;
+}
+
+#game {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+#home_button1 {
+    position: absolute;
+    background-image: url(GRAPHICS/home.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 5%;
+    top: 85%;
+    left: 85%;
+    z-index: 20;
+    cursor: pointer;
+}
+
+#pause_button {
+    position: absolute;
+    background-image: url(GRAPHICS/pause.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 5%;
+    top: 85%;
+    left: 79%;
+    z-index: 20;
+    cursor: pointer;
+}
+
+#play_button {
+    position: absolute;
+    background-image: url(GRAPHICS/play.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 5%;
+    top: 85%;
+    left: 79%;
+    z-index: 20;
+    cursor: pointer;
+}
+
+#sound_off_button1 {
+    position: absolute;
+    background-image: url(GRAPHICS/sound_on.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 5%;
+    top: 85%;
+    left: 91%;
+    z-index: 20;
+    cursor: pointer;
+}
+
+#sound_on_button1 {
+    position: absolute;
+    background-image: url(GRAPHICS/sound_off.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 5%;
+    top: 85%;
+    left: 91%;
+    z-index: 20;
+    cursor: pointer;
+}
+
+#title_screen {
+    position: absolute;
+    aspect-ratio: 16/9;
+    z-index: 40;
+    background-image: url(GRAPHICS/primetime_start-page2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+#info_page {
+    position: absolute;
+    aspect-ratio: 16/9;
+    z-index: 40;
+    background-image: url(GRAPHICS/info_page.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+#exit_info {
+    position: absolute;
+    aspect-ratio: 16/9;
+    z-index: 40;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    cursor: pointer;
+}
+
+#start_game_button {
+    position: absolute;
+    background-image: url(GRAPHICS/play.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 11%;
+    top: 49%;
+    left: 55%;
+    cursor: pointer;
+}
+
+#info_button {
+    position: absolute;
+    background-image: url(GRAPHICS/info.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 8%;
+    top: 54%;
+    left: 46%;
+    cursor: pointer;
+}
+
+#sound_off_button2 {
+    position: absolute;
+    background-image: url(GRAPHICS/sound_on.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 8%;
+    top: 54%;
+    left: 67%;
+    cursor: pointer;
+}
+
+#sound_on_button2 {
+    position: absolute;
+    background-image: url(GRAPHICS/sound_off.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 8%;
+    top: 54%;
+    left: 67%;
+    cursor: pointer;
+}
+
+#level_complete {
+    position: absolute;
+    aspect-ratio: 16/9;
+    z-index: 40;
+    background-image: url(GRAPHICS/primetime_you-won2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+#score_board2 {
+    position: absolute;
+    background-image: url(GRAPHICS/scoreboard.svg);
+    background-repeat: no-repeat;
+    z-index: 10;
+    height: 10%;
+    width: 10%;
+    top: 15%;
+    left: 15%;
+    text-align: center;
+}
+
+#current_score2 {
+    position:relative;
+    z-index: 10;
+    width: 100%;
+    font-family: "Futura";
+    font-weight: bold;
+    color: #e44616;
+    font-size: 1.75vw;
+    align-self: center;
+    top: 22%;
+    border: 0px;
+    padding: 0px;
+
+}
+
+#home_button3 {
+    position: absolute;
+    background-image: url(GRAPHICS/home.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 5.5%;
+    top: 57%;
+    left: 47.5%;
+    cursor: pointer;
+}
+
+#play_again_button2 {
+    position: absolute;
+    background-image: url(GRAPHICS/replay.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 5.5%;
+    top: 57%;
+    left: 40.5%;
+    cursor: pointer;
+}
+
+#sound_off_button4 {
+    position: absolute;
+    background-image: url(GRAPHICS/sound_on.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 5.5%;
+    top: 57%;
+    left: 54.5%;
+    cursor: pointer;
+}
+
+#sound_on_button4 {
+    position: absolute;
+    background-image: url(GRAPHICS/sound_off.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 5.5%;
+    top: 57%;
+    left: 54.5%;
+    cursor: pointer;
+}
+
+#game_over {
+    position: absolute;
+    aspect-ratio: 16/9;
+    z-index: 40;
+    background-image: url(GRAPHICS/primetime_game-over2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+#score_board3 {
+    position: absolute;
+    background-image: url(GRAPHICS/scoreboard.svg);
+    background-repeat: no-repeat;
+    z-index: 10;
+    height: 10%;
+    width: 10%;
+    top: 15%;
+    left: 15%;
+    text-align: center;
+}
+
+#current_score3 {
+    position:relative;
+    z-index: 10;
+    width: 100%;
+    font-family: "Futura";
+    font-weight: bold;
+    color: #e44616;
+    font-size: 1.75vw;
+    align-self: center;
+    top: 22%;
+    border: 0px;
+    padding: 0px;
+}
+
+#home_button2 {
+    position: absolute;
+    background-image: url(GRAPHICS/home.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 5.5%;
+    top: 57%;
+    left: 47.5%;
+    cursor: pointer;
+}
+
+#play_again_button1 {
+    position: absolute;
+    background-image: url(GRAPHICS/replay.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 5.5%;
+    top: 57%;
+    left: 40.5%;
+    cursor: pointer;
+}
+
+#sound_off_button3 {
+    position: absolute;
+    background-image: url(GRAPHICS/sound_on.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 5.5%;
+    top: 57%;
+    left: 54.5%;
+    cursor: pointer;
+}
+
+#sound_on_button3 {
+    position: absolute;
+    background-image: url(GRAPHICS/sound_off.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 5.5%;
+    top: 57%;
+    left: 54.5%;
+    cursor: pointer;
+}
+
+#game_background {
+    position: absolute;
+    background-image: url(GRAPHICS/game_background.svg);
+    background-size: cover;
+    aspect-ratio: 1/1;
+    width: 100%;
+    height: 100%;
+}
+
+#game_sprites {
+    position: absolute;
+    width: 100%;
+    aspect-ratio: 16/9;
+    z-index: 10;
+}
+
+#score_board {
+    position: absolute;
+    background-image: url(GRAPHICS/scoreboard.svg);
+    background-repeat: no-repeat;
+    z-index: 10;
+    height: 10%;
+    width: 10%;
+    top: 15%;
+    left: 15%;
+    text-align: center;
+}
+
+#current_score {
+    position:relative;
+    z-index: 10;
+    width: 100%;
+    font-family: "Futura";
+    font-weight: bold;
+    color: #e44616;
+    font-size: 1.75vw;
+    align-self: center;
+    top: 22%;
+    border: 0px;
+    padding: 0px;
+}
+
+#time_board {
+    position: absolute;
+    background-image: url(GRAPHICS/timer.svg);
+    background-repeat: no-repeat;
+    z-index: 10;
+    height: 10%;
+    width: 8%;
+    top: 15%;
+    left: 85%;
+}
+
+#current_time {
+    position: absolute;
+    z-index: 10;
+    aspect-ratio: 1/1;
+    width: 5%;
+    top: 20%;
+    left: 13%;
+    font-family: "Futura";
+    font-weight: bold;
+    color: #e44616;
+    font-size: 1.75vw;
+    align-self: center;
+    border: 10px;
+    padding: 0px;
+    text-align: justify;
+    justify-self: center;
+}
+
+#health_board {
+    position: absolute;
+    width: 25%;
+    aspect-ratio: 1/1;
+    top: 8%;
+    left: 5%;
+}
+
+#faith-o-meter{
+    position: absolute;
+    background-image: url(GRAPHICS/faithometer.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 10;
+    height: 40%;
+    width: 40%;
+    top: 5%;
+    left: -7%;
+}
+
+#oneleft {
+    position: absolute;
+    background-image: url(GRAPHICS/faith-o-meter_one.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    top: 15%;
+    left: 5%;
+}
+
+#twoleft {
+    position: absolute;
+    background-image: url(GRAPHICS/faith-o-meter_two.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    top: 15%;
+    left: 5%;
+}
+
+#full {
+    position: absolute;
+    background-image: url(GRAPHICS/faith-o-meter_full.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    top: 15%;
+    left: 5%;
+}
+
+#giveup {
+    position: absolute;
+    background-image: url(GRAPHICS/giveup.svg);
+    background-repeat: no-repeat;
+    z-index: 10;
+    aspect-ratio: 1/1;
+    width: 10%;
+    top: 62%;
+    left: 85%;
+    cursor: pointer;
+}
+
+
+/* POSITIONS */
+
+.pos1 {
+    top: 14%;
+    left: 32%;
+}
+
+.pos2 {
+    top: 14%;
+    left: 39%;
+}
+
+.pos3 {
+    top: 14%;
+    left: 46%;
+}
+
+.pos4 {
+    top: 14%;
+    left: 53%;
+}
+
+.pos5 {
+    top: 25%;
+    left: 32%;
+}
+
+.pos6 {
+    top: 25%;
+    left: 39%;
+}
+
+.pos7 {
+    top: 25%;
+    left: 46%;
+}
+
+.pos8 {
+    top: 25%;
+    left: 53%;
+}
+
+.pos9 {
+    top: 25%;
+    left: 60%;
+}
+
+.pos10 {
+    top: 36%;
+    left: 32%;
+}
+
+.pos11 {
+    top: 36%;
+    left: 39%;
+}
+
+.pos12 {
+    top: 36%;
+    left: 46%;
+}
+
+.pos13 {
+    top: 36%;
+    left: 53%;
+}
+
+.pos14 {
+    top: 36%;
+    left: 60%;
+}
+
+.pos15 {
+    top: 47%;
+    left: 32%;
+}
+
+.pos16 {
+    top: 47%;
+    left: 39%;
+}
+
+.pos17 {
+    top: 47%;
+    left: 46%;
+}
+
+.pos18 {
+    top: 47%;
+    left: 53%;
+}
+
+.pos19 {
+    top: 47%;
+    left: 60%;
+}
+
+.pos20 {
+    top: 58%;
+    left: 32%;
+}
+
+.pos21 {
+    top: 58%;
+    left: 39%;
+}
+
+.pos22 {
+    top: 58%;
+    left: 46%;
+}
+
+.pos23 {
+    top: 58%;
+    left: 53%;
+}
+
+.pos24 {
+    top: 58%;
+    left: 60%;
+}
+
+/* PRIME 2 */
+#container2 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite2 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime2.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 3 */
+#container3 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite3 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime3.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 5 */
+#container5 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite5 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime5.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 7 */
+#container7 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite7 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime7.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 11 */
+#container11 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite11 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime11.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 13 */
+#container13 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite13 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime13.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 17 */
+#container17 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite17 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime17.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 19 */
+#container19 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite19 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime19.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 23 */
+#container23 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite23 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime23.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 29 */
+#container29 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite29 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime29.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 31 */
+#container31 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite31 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime31.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 37 */
+#container37 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite37 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime37.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 41 */
+#container41 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite41 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime41.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 43 */
+#container43 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite43 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime43.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 47 */
+#container47 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite47 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime47.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 53 */
+#container53 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite53 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime53.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 59 */
+#container59 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite59 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime59.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 61 */
+#container61 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite61 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime61.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 67 */
+#container67 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite67 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime67.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 71 */
+#container71 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite71 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime71.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 73 */
+#container73 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite73 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime73.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 79 */
+#container79 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite79 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime79.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 83 */
+#container83 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite83 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime83.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 89 */
+#container89 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite89 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime89.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* PRIME 97 
+#container97 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+    top: 58%;
+    left: 59%;
+}
+#sprite97 {
+    position: absolute;
+    background-image: url(GRAPHICS/prime97.svg);
+    background-repeat: no-repeat;
+    aspect-ratio: 1/0.5;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+}
+*/
+
+
+/* NP 1 */
+#container1 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite1 {
+    position: absolute;
+    background-image: url(GRAPHICS/np1.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 4 */
+#container4 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite4 {
+    position: absolute;
+    background-image: url(GRAPHICS/np4.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 9 */
+#container9 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite9 {
+    position: absolute;
+    background-image: url(GRAPHICS/np9.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 10 */
+#container10 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite10 {
+    position: absolute;
+    background-image: url(GRAPHICS/np10.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 15 */
+#container15 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite15 {
+    position: absolute;
+    background-image: url(GRAPHICS/np15.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 21 */
+#container21 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite21 {
+    position: absolute;
+    background-image: url(GRAPHICS/np21.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 25 */
+#container25 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite25 {
+    position: absolute;
+    background-image: url(GRAPHICS/np25.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 27 */
+#container27 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite27 {
+    position: absolute;
+    background-image: url(GRAPHICS/np27.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 33 */
+#container33 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite33 {
+    position: absolute;
+    background-image: url(GRAPHICS/np33.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 35 */
+#container35 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite35 {
+    position: absolute;
+    background-image: url(GRAPHICS/np35.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 39 */
+#container39 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite39 {
+    position: absolute;
+    background-image: url(GRAPHICS/np39.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 45 */
+#container45 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite45 {
+    position: absolute;
+    background-image: url(GRAPHICS/np45.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 49 */
+#container49 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite49 {
+    position: absolute;
+    background-image: url(GRAPHICS/np49.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 51 */
+#container51 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite51 {
+    position: absolute;
+    background-image: url(GRAPHICS/np51.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 57 */
+#container57 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite57 {
+    position: absolute;
+    background-image: url(GRAPHICS/np57.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 63 */
+#container63 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite63 {
+    position: absolute;
+    background-image: url(GRAPHICS/np63.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 65 */
+#container65 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite65 {
+    position: absolute;
+    background-image: url(GRAPHICS/np65.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 69 */
+#container69 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite69 {
+    position: absolute;
+    background-image: url(GRAPHICS/np69.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 75 */
+#container75 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite75 {
+    position: absolute;
+    background-image: url(GRAPHICS/np75.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 77 */
+#container77 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+}
+#sprite77 {
+    position: absolute;
+    background-image: url(GRAPHICS/np77.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 81 */
+#container81 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite81 {
+    position: absolute;
+    background-image: url(GRAPHICS/np81.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 85 */
+#container85 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite85 {
+    position: absolute;
+    background-image: url(GRAPHICS/np85.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 87 */
+#container87 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite87 {
+    position: absolute;
+    background-image: url(GRAPHICS/np87.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* NP 91 */
+#container91 {
+    position: absolute;
+    width: 5%;
+    z-index: 10;
+    aspect-ratio: 1/1;
+
+}
+#sprite91 {
+    position: absolute;
+    background-image: url(GRAPHICS/np91.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    top: 14%;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* FADE IN */
+.fadein {
+    animation: fadein 7s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadein {
+    0% {opacity: 0%;}
+    10% {opacity: 100%;}
+}
+
+/* FADE OUT */
+.fadeout {
+    animation: fadeout 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeout {
+    0% { background-image: url(GRAPHICS/border.svg);
+        opacity: 0%;
+    }
+    5% { background-image: url(GRAPHICS/border.svg);
+        opacity: 100%;}
+    100% { background-image: url(GRAPHICS/border.svg);
+        opacity: 100%;}    
+}
+
+/* WIGGLE */
+.wiggle {
+    animation: wiggle 0.1s calc(5);
+}
+
+@keyframes wiggle {
+    0%,
+    100% {
+        transform: rotate(0);
+    }
+
+    33% {
+        transform: rotate(4deg);
+    }
+
+    66% {
+        transform: rotate(-4deg);
+    }
+}
+
+.is-no-pointer {
+    pointer-events: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.stop {
+    animation-play-state: paused;
+}
+
+.pulse {
+    animation: pulse 1s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    #asset_list {
+        position: absolute;
+        width: 100%;
+        aspect-ratio: 1/1;
+        left: 5%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    h1 {
+        position: relative;
+        width: 100%;
+        left: 4%;
+        font-family: "Futura";
+        font-size: 20px;
+        line-height: 2em;
+        margin-top: 20px;   
+    }
+
+    header {
+        padding-top: 40px;
+    }
+
+    header ul {
+        position: relative;
+        width: 50%;
+        left: 4%;
+        display: inline;
+        list-style: none;
+        font-family: "Futura";
+        font-size: 20px;
+    }
+
+    header li {
+        position: relative;
+        width: 100%;
+        line-height: 1.5em;
+    }
+
+    footer li {
+        font-family: 'Futura';
+        font-size: 12px;
+        line-height: 2em;
+        text-align: justify;
+        list-style: none;
+        display: inline;
+    }
+
+    footer ul {
+        position: absolute;
+        top: 90%;
+        justify-self: center;
+        padding: 20px 0px 0px 50px;
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    h1 {
+        position: relative;
+        width: 100%;
+        left: 4%;
+        font-family: "Futura";
+        font-size: 20px;
+        line-height: 2em;
+        margin-top: 20px;
+    }
+
+    header {
+        padding-top: 45px;
+    }
+    
+    header ul {
+        position: relative;
+        width: 50%;
+        left: 4%;
+        display: inline;
+        list-style: none;
+        font-family: "Futura";
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    
+    header li {
+        position: relative;
+        width: 100%;
+        line-height: 1.5em;
+    }
+
+    footer li {
+        font-family: 'Futura';
+        font-size: 10px;
+        line-height: 2em;
+        text-align: justify;
+        list-style: none;
+        display: inline;
+    }
+
+    footer ul {
+        position: absolute;
+        top: 90%;
+        justify-self: center;
+        padding: 20px 0px 0px 50px;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        position: relative;
+        width: 100%;
+        left: 4%;
+        font-family: "Futura";
+        font-size: 15px;
+        line-height: 2em;
+        margin-top: 20px;
+    }
+
+    header {
+        padding-top: 45px;
+    }
+    
+    header ul {
+        position: relative;
+        width: 50%;
+        left: 3%;
+        display: inline;
+        list-style: none;
+        font-family: "Futura";
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    
+    header li {
+        position: relative;
+        width: 100%;
+        line-height: 1.5em;
+    }
+
+    footer li {
+        font-family: 'Futura';
+        font-size: 10px;
+        line-height: 2em;
+        text-align: justify;
+        list-style: none;
+        display: inline;
+    }
+
+    footer ul {
+        position: absolute;
+        top: 90%;
+        justify-self: center;
+        padding: 20px 0px 0px 50px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+
+    h1 {
+        position: relative;
+        width: 100%;
+        left: 4%;
+        font-family: "Futura";
+        font-size: 15px;
+        line-height: 2em;
+        margin-top: 20px;
+    }
+
+    header {
+        padding-top: 75px;
+    }
+    
+    header ul {
+        position: relative;
+        width: 50%;
+        left: 2%;
+        display: inline;
+        list-style: none;
+        font-family: "Futura";
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    
+    header li {
+        position: relative;
+        width: 100%;
+        line-height: 1.5em;
+    }
+
+    footer li {
+        font-family: 'Futura';
+        font-size: 10px;
+        line-height: 2em;
+        text-align: justify;
+        list-style: none;
+        display: inline;
+    }
+
+    footer ul {
+        position: absolute;
+        top: 90%;
+        justify-self: center;
+        padding: 20px 0px 0px 50px;
+    }
+}
+
